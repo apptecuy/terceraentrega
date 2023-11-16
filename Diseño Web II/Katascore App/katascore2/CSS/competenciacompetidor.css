@@ -1,0 +1,455 @@
+body{
+    background-image: url(../IMG/posiblefondo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    
+    
+    }
+
+.vincularcompetencia{
+
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid skyblue;
+    color: white;
+
+    position: relative;
+    top: 100px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgba(0, 0, 0, 0.8);
+margin: 0 auto;
+height: auto;
+width: 1100px;
+
+border-radius: 5%;
+
+
+}
+.titulovincular{
+    position: relative;
+    top: 30px;
+    right: 50px;
+}
+.volver3{
+height: 50px;
+width: 100px;
+background-color: black;
+color: skyblue;
+border: 1px solid skyblue;
+border-radius: 5%;
+    position: relative;
+    left:450px;
+    bottom: 30px;
+}
+
+th{
+
+color: skyblue;
+}
+
+h1{
+    -webkit-text-stroke: 1px skyblue;
+}
+
+
+
+/*/ Vincular competidor /*/
+
+.vincularcompetidor{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   position: relative;
+   top: 50px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 16px;
+    height: 700px;
+    width: 700px;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+}
+
+
+.vincular {
+position: relative;
+top: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: skyblue;
+ height: 50px;
+ width: 100px;
+ border: 1px solid skyblue;
+ border-radius: 5%;
+}
+
+.checkbox{
+height: 20px;
+   width: 20px;
+   color: skyblue;
+   background-color: black;
+}
+.logoformulario{
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+height: 130px;
+width: 130px;
+}
+.titulo2{
+
+position: relative;
+bottom: 40px;    
+
+}
+
+.id_competencia{
+
+background-color: black;
+height: auto;
+width: 50px;
+color: skyblue;
+}
+
+
+.link{
+
+text-decoration: none;
+
+}
+.volverformulario{
+    position: relative;
+    top: 100px;
+    background-color: black;
+    color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+    height: 30px;
+    width: 100px;
+
+}
+/*/ COMPETICION /*/
+
+.competicion{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ top: 100px;
+ border: 1px solid skyblue;
+ border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+ margin: 0 auto;
+    height: 650px;
+    width: 1000px;
+
+}
+
+
+.botonescomp1{
+    position: relative;
+    right: 270px;
+    top: 120px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: skyblue;
+  border: 1px solid skyblue;
+  border-radius: 5%;
+    height: 120px;
+    width: 220px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.botonescomp2{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+    height: 120px;
+    width: 220px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.botonescomp3{
+    position: relative;
+  left: 270px;
+  bottom: 120px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+    height: 120px;
+    width: 220px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.logocuk1{
+ 
+    position: relative;
+    bottom: 0px;
+
+}
+
+/*/ Filtrado de competidores /*/
+
+.volver5{
+    height: 40px;
+width: 100px;
+background-color: black;
+color: skyblue;
+border: 1px solid skyblue;
+border-radius: 5%;
+    position: relative;
+
+    top: 140px;
+   
+}  
+.buscar{
+        
+    position: relative;
+     top: 100px;
+  background-color: black;
+  color: skyblue;
+  width: 150px;
+  height: 30px;
+  border: 1px solid skyblue;
+  border-radius: 5%;
+}  
+
+.seleccionarcompetencia {
+
+    position: relative;
+    bottom: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.filtradocompetidores{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 650px;
+    width: 1000px;
+border: 1px solid skyblue;
+border-radius: 5%;
+}
+
+.competencia1{
+position: relative;
+bottom: 50px;
+right: 50px;
+}
+.competencia2{
+    background-color: black;
+    color: skyblue;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    width: 200px;
+    }
+
+
+    .categoria1{
+       position: relative;
+        bottom: 20px;
+        right: 50px;
+        } 
+
+        .categoria2{
+            position: relative;
+            bottom: 20px;
+            left: 15px;
+            background-color: black;
+    color: skyblue;
+    width: 200px;
+            }
+
+            .sexo1{
+                position: relative;
+                top: 10px;
+                 right: 50px;
+                 } 
+
+            .sexo2{
+                position: relative;
+              top: 10px;
+                left: 32px;
+                background-color: black;
+        color: skyblue;
+        width: 200px;
+                }        
+    
+
+
+                .volver2{
+
+                    height: 50px;
+                    width: 100px;
+                    border: 1px solid skyblue;
+                    color: skyblue;
+                    border-radius: 5%;
+ background-color: rgba(0, 0, 0, 0.9);
+                }
+
+
+/* Gestion de competencia */
+
+.gestioncompetencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+       background-color: rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+       height: 650px;
+       width: 1000px;
+
+}
+
+.botoncompe{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.logocukgestion{
+
+    position: relative;
+    bottom: 137px;
+}
+.gestioncompe1{
+    position: relative;
+    
+ text-align: center;
+ right: 60px;
+    background-color: rgba(0, 0, 0, 0.80);
+    height: 150px;
+    width: 250px;
+    color:skyblue;
+    border: 1px solid skyblue;
+    border-radius: 10%;
+
+}
+.gestioncompe2{
+    position: relative;
+    left: 60px;
+ text-align: center;
+ 
+    background-color: rgba(0, 0, 0, 0.80);
+    height: 150px;
+    width: 250px;
+    color:skyblue;
+    border: 1px solid skyblue;
+    border-radius: 10%;
+}
+
+.botongestioncompe{
+    height: 50px;
+width: 100px;
+background-color: black;
+color: skyblue;
+border: 1px solid skyblue;
+border-radius: 5%;
+    position: relative;
+    top: 100px;
+
+}
+/*/ realizar sorteo /*/
+
+.realizarsorteo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+       background-color: rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+       height: 700px;
+       width: 1000px;
+       text-align: center;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+}
+
+.logorealizar{
+    position: relative;
+    bottom: 85px;
+}
+.eleccioncategoria{
+    position: relative;
+    bottom: 50px;
+}
+.eleccioncompetencia{
+    position: relative;
+    bottom: 60px;
+}
+
+
+
+
+.elecciontatami{
+    position: relative;
+    bottom: 40px;
+}
+
+.realizarsorteo1{
+
+    background-color: black;
+    color: skyblue;
+    height: 50px;
+    width: 150px;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+    position: relative;
+    top: 40px;
+
+}
+
+
+.realisort{
+position: relative;
+bottom: 80px;
+
+}
+
+select {
+background-color: black;
+color: skyblue;
+font-size: 15px;
+}
+
+
+.volversorteo{
+    position: relative;
+    bottom: 80px;
+background-color: black;
+color: skyblue;
+height: 30px;
+width: 100px;
+border: 1px solid skyblue;
+}

@@ -1,0 +1,6 @@
+Le adjuntamos en el drive dos carpetas de la aplicacion por las siguientes razon.
+katascore: nos pidieron para la instalacion en la utu y la conexión es la de:
+("localhost", "apptec", "47743966", "bd_apptec");
+
+por esta razon le adjuntamos la segunda carpeta katascore2 para que lo puedan probar, la conexión es:
+ ("localhost", "root", "", "bdkatascore"); 

@@ -1,0 +1,129 @@
+
+body{
+    background-image: url(../IMG/posiblefondo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.numerodejuez{
+    position: relative;
+    top: 40px;
+    color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 700px;
+    width: 1000px;
+    font-size: 50px;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+
+}
+
+.enviar{
+background-color: black;
+color: skyblue;
+position: relative;
+left: 235px;
+top: 100px;
+height: 40px;
+width: 100px;
+border: 1px solid skyblue;
+}
+
+
+.option{
+    position: relative;
+    left: 250px;
+}
+
+.titulo{
+position: relative;
+bottom: 140px;
+color: white;
+-webkit-text-stroke: 0.8px skyblue;
+}
+
+.nro{
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+    position: relative;
+    left: 190px;
+    margin: 0 auto;
+background-color: black ;
+color: skyblue;
+font-size: 17px;
+}
+
+
+@media screen and (max-width: 1000px) {
+.numerodejuez{
+ width: 90%;
+}
+}
+
+@media screen and (max-width: 700px) {
+  .titulo{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 40px;
+  text-align: center;
+  }
+
+  .nro{
+   
+  margin-left: -50px;
+}
+.enviar{
+    margin-left: -50px;
+}
+    }
+
+    @media screen and (max-width: 500px) {
+     
+      
+        .nro{
+         
+        margin-left: -70px;
+      }
+      .enviar{
+          margin-left: -70px;
+      }
+          }
+
+          @media screen and (max-width: 450px) {
+     
+      
+            .nro{
+             
+            margin-left: -90px;
+          }
+          .enviar{
+              margin-left: -90px;
+          }
+              }
+
+
+              @media screen and (max-width: 400px) {
+     
+      
+                .nro{
+                 
+                margin-left: -110px;
+              }
+              .enviar{
+                  margin-left: -110px;
+              }
+                  }

@@ -1,0 +1,148 @@
+body{
+ background-image: url(../IMG/posiblefondo.png);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+.modificar{
+  color: white;
+   position: relative;
+   top: 60px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    height:auto;
+    width: 1200px;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+border-radius: 5%;
+border: 1px solid white;
+}
+
+.modificarinfo{
+    text-align: center;
+    border: 2px solid skyblue;
+    border-radius: 3%;
+ background-color: rgba(0, 0, 0, 0.6);
+ height: auto;
+ width: 1150px;
+    position: relative;
+    
+    color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items:flex-start;
+position: relative;
+
+}
+table {
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+  color: skyblue;
+}
+
+h1{
+color: white;
+position: relative;
+
+right: 50px;
+-webkit-text-stroke: 0.3px skyblue;
+}
+
+.volvermod{
+    border: 1px solid skyblue;
+    border-radius: 5%;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    color: skyblue;
+    right: 50px;
+    top:50px;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    }
+
+.titulos{
+    display: flex;
+    justify-content: space-around;
+   
+ color: skyblue;
+width: 1000px;
+position: relative;
+
+right: 150px;
+top: 10px;
+
+}
+
+
+
+    .cabecera{
+padding-top: 15px;
+     display: flex;
+     flex-direction: row;
+     height: auto;
+     justify-content: space-evenly;
+     width: 90%;
+    }
+
+    .categoria{
+       
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 5%;
+        border: 1px solid white;
+        text-align: center;
+    background-color: black;
+    color: skyblue;
+    position: relative;
+    right: 100px;
+    height:120px;
+    }
+
+    .ranking{
+  position: relative;
+  left: 20px;
+    }
+    .id{
+        position: relative;
+        left: 25px;
+    }
+
+
+  .filtrarid{
+   position: relative;
+   top: 110px;
+   right: 300px;
+  }
+
+  .compinsc{
+
+    position: relative;
+    
+    left: 100px;
+
+  }
+
+  .logo{
+  position: relative;
+  right: 160px;
+  top: 10px;
+  }
+
+  button{
+   background-color: black;
+   color: skyblue;
+   border: 1px solid skyblue;
+   border-radius: 5%;
+  }

@@ -1,0 +1,210 @@
+body{
+    background-image: url(../IMG/posiblefondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    min-height: 200px;
+    max-height: 1200px;
+    min-width: 200px;
+    max-width: 2000px;
+
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 1px skyblue;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+color: white;
+padding: 3px;
+}
+h3{
+
+    font-size: 35px;
+}
+.Volver{
+    background-color: black;
+    color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+    height: 50px;
+    width: 130px;
+}
+.sorteopublico{
+    position: relative;
+  bottom: 80px;
+    border: 2px solid skyblue;
+    border-radius: 5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+height: auto;
+background-color: rgba(0, 0, 0, 0.7);
+width: 1400px;
+
+}
+
+.boton-competidor{
+
+    background-color: black;
+    color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+    height: 60px;
+    width: 150px;
+
+}
+
+.mostrarcompetidor{
+    position: absolute;
+    top: 40px;
+    border: 2px solid skyblue;
+    border-radius: 5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+height: 850px;
+background-color: rgba(0, 0, 0, 0.8);
+width: 1500px;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.kimono{
+position: relative;
+top: 320px;
+right: 180px;
+height: 550px;
+
+}
+
+.categoria{
+    position: relative;
+    top: 220px;
+    
+}
+
+h4{
+    font-size: 40px;
+    -webkit-text-stroke: 1px skyblue;
+}
+
+
+.infocompe{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+position: relative;
+left: 240px;
+bottom: 310px;
+font-size: 35px;
+width: auto;
+}
+
+.Logocuk{
+    position: relative;
+    bottom: 265px;
+    left: 240px;
+height: 130px;
+width: 130px;
+}
+
+.logoresultados{
+height: 130px;
+width: 130px;
+margin: 0 auto;
+}
+
+.boton-competidor{
+   position: relative;
+   right: 120px;
+   top: 50px;
+   width: 150px;
+    }
+    
+
+.boton-competidor1{
+position: relative;
+left: 100px;
+bottom: 30px;
+background-color: black;
+color: skyblue;
+border: 1px solid skyblue;
+border-radius: 5%;
+width: 150px;
+height: 60px;
+}
+
+.Competidor{
+background-color: black;
+border-radius: 5%;
+border: 1px solid skyblue;
+color:  skyblue;
+height: 60px;
+width: 150px;
+position: relative;
+right: 100px;
+top: 65px;
+}
+.boton-competidor2{
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    background-color: black;
+    color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+    width: 150px;
+    height: 60px;
+    }
+
+
+    .logo4{
+     margin: 0 auto;
+     height: 130px;
+     width: 130px;
+
+    }
+
+    .resulcomp{
+        text-align: center;
+        color: white;
+        -webkit-text-stroke: 0.8px skyblue;
+    }
+ 
+
+    .boton-competidor4{
+        background-color: black;
+        color: skyblue;
+        height: 50px;
+        width: 150px;
+        border: 1px solid skyblue;
+        border-radius: 5%;
+
+     }
+
+        .resultado {
+        color: white;
+        font-size: 25px;
+        -webkit-text-stroke: 0.8px skyblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0 auto;
+        text-align: center;
+
+
+        }
